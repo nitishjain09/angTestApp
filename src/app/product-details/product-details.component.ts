@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import {Product} from '../models/product.model'
+import { Product } from '../models/product.model'
 
 @Component({
   selector: 'app-product-details',
@@ -12,11 +12,21 @@ export class ProductDetailsComponent{
   @Input() productObj:Product; //input inducates to take info from parent comp
 
   //create a custom event
-  @Output() myEvent=new EventEmitter()
+  @Output() myEvent=new EventEmitter();
+  @Output() myEvent2=new EventEmitter(); 
 
-  sendProductToParent(productTitle){
+  count:number=0;
+  sendProductDetailsToParent(productTitle){
     //emit data to parent
     this.myEvent.emit(productTitle);
+    this.count++;
   }
+
+  removeProduct(productTitle){
+    this.myEvent2.emit(productTitle);
+    this.count--;
+  }
+
+
 
 }
