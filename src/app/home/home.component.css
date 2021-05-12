@@ -1,0 +1,11 @@
+.carousel-item{
+    height: 32rem;
+    background-position: center;
+    background-size: cover;
+}
+
+span{
+    font-size: x-large;
+    font-weight: bolder;
+    color: brown;
+}

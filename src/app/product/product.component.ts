@@ -9,7 +9,7 @@ import { Product } from '../models/product.model';
 
 export class ProductComponent{
 
-  products:Product[]=[
+  /*products:Product[]=[
     
     {
     productTitle:"Technology-1",
@@ -64,6 +64,6 @@ export class ProductComponent{
     const idx=this.productsSentByChild.indexOf(productTitle);
     this.productsSentByChild.splice(idx,1);
     this.productCount--;
-  }
+  }*/
 
 }
