@@ -1,0 +1,90 @@
+<!-- <table class="table text-white text-center">
+    <thead>
+        <tr>
+            <th>UserID</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Body</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor='let postObj of myPosts'>
+            <td>{{postObj.userId}}</td>
+            <td>{{postObj.id}}</td>
+            <td>{{postObj.title}}</td>
+            <td>{{postObj.body}}</td>
+        </tr>
+    </tbody>
+</table> -->
+
+<!-- <table class="table text-white text-center mt-5">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>email</th>
+            <th>Name</th>
+            <th>Profile Pic</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor='let user of users.data'>
+            <td>{{user.id}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.first_name}} {{user.last_name}}</td>
+            <td><img src={{user.avatar}} alt=""></td>
+        </tr>
+    </tbody>
+</table> -->
+
+<!-- <table class="table text-white text-center mt-5">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Year</th>
+            <th>Color</th>
+            <th>Pantone Value</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let info of unknown.data">
+            <td>{{info.id}}</td>
+            <td>{{info.name}}</td>
+            <td>{{info.year}}</td>
+            <td>
+                <div [style.backgroundColor]="info.color" style="padding: 10px 20px; margin-bottom: 3px;"></div>
+                <div [ngStyle]="{'background-color':info.color, 'padding': '10px 20px'}"></div>
+            </td>
+            <td>{{info.pantone_value}}</td>
+        </tr>
+    </tbody>
+</table> -->
+
+<table class="table text-white text-center mt-5">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>e-Mail</th>
+            <th>City</th>
+            <th>Phone</th>
+            <th>Website</th>
+            <th>Company</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let user of users2">
+            <td>{{user.id}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.address.city}}</td>
+            <td>{{user.phone}}</td>
+            <td>{{user.website}}</td>
+            <td>{{user.company.name}}</td>
+        </tr>
+    </tbody>
+</table>

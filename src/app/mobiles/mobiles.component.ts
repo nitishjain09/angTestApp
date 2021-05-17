@@ -58,7 +58,19 @@ export class MobilesComponent implements OnInit{
     constructor(private dsObj:DataService){ }
 
     ngOnInit(){
+      /*
       //obj initialization logic
       this.mobiles = this.dsObj.getMobilesData();
+      */
+    
+      this.dsObj.getMobilesData().subscribe(
+        data=>{
+          this.mobiles=data;
+        },
+        err=>{
+          console.log('err is',err)
+        }
+      )
+    
     }
 }
