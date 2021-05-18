@@ -63,7 +63,7 @@
     </tbody>
 </table> -->
 
-<table class="table text-white text-center mt-5">
+<!-- <table class="table text-white text-center mt-5">
     <thead>
         <tr>
             <th>ID</th>
@@ -85,6 +85,25 @@
             <td>{{user.phone}}</td>
             <td>{{user.website}}</td>
             <td>{{user.company.name}}</td>
+        </tr>
+    </tbody>
+</table> -->
+
+<table class="table text-white text-center mt-5">
+    <thead>
+        <tr>
+
+            <th>ID</th>
+            
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let postObj of myPosts">
+            <td>
+                <button class="btn btn-sm btn-warning" (click)='onSelectId(postObj.id)'>{{postObj.id}}</button>
+            </td>
+            
         </tr>
     </tbody>
 </table>

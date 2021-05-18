@@ -11,17 +11,21 @@ export class FakedataService {
   //inject HttpClient object
   constructor(private hc:HttpClient) { }
 
-  /*getPosts():Observable<Post[]>{
+  getPosts():Observable<Post[]>{
     return this.hc.get<Post[]>('https://jsonplaceholder.typicode.com/posts');
+  }
+
+  getPostById(id):Observable<Post>{
+    return this.hc.get<Post>('https://jsonplaceholder.typicode.com/posts/'+id);
   }
 
   getUsers():Observable<any>{
     return this.hc.get<any>('https://reqres.in/api/users?page=2');
   }
 
-  getUnknown():Observable<object>{
+ getUnknown():Observable<object>{
     return this.hc.get<object>('https://reqres.in/api/unknown');
-  }*/
+  }
 
   getUsers2():Observable<object[]>{
     return this.hc.get<object[]>('https://jsonplaceholder.typicode.com/users');
