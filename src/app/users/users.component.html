@@ -1,1 +1,21 @@
-<p>users works!</p>
+<div class="container mt-3">
+    <table class="table table-info table-borderless table-striped table-hover text-center">
+        <thead>
+            <tr>
+                <th>User ID</th>
+                <th>e-Mail</th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor='let user of usersData'>
+                <td>{{user.id}}</td>
+                <td>{{user.email}}</td>
+                <td>
+                    <button class="btn btn-sm text-white" style="background-color: #0f3455;" (click)='onClickShowMore(user.id)'>Show more</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

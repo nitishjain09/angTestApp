@@ -11,14 +11,17 @@ import { RegisterComponent } from './register/register.component';
 import { TelevisionsComponent } from './televisions/televisions.component';
 import { TestComponent } from './test/test.component';
 import { UserdetailsComponent } from './userdetails/userdetails.component';
+import { UsersComponent } from './users/users.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'login', component: LoginComponent },
   { path: 'contactus', component: ContactusComponent},
-  { path: 'test', component: TestComponent},
-  { path: 'test/:id', component: UserdetailsComponent},
+  // { path: 'test', component: TestComponent},
+  // { path: 'test/:id', component: UserdetailsComponent},
+  { path: 'users', component: UsersComponent},
+  { path: 'userdetails/:id', component: UserdetailsComponent},
   { path: 'products', component: ProductComponent, children:[
     {path:'mobiles', component: MobilesComponent},
     {path:'bikes', component: BikesComponent},
