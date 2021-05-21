@@ -8,3 +8,9 @@
     border-radius: 0px;
     background-color: #052a4d;
 }
+
+.card-img-top{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

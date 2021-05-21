@@ -3,17 +3,17 @@
 <div class="row">
     <div class="col-sm-2 col-md-3"></div>
     <div class="col-sm-8 col-md-6">
-        <form class="text-white">
+        <form class="text-white" #ref="ngForm" (ngSubmit)="onLogin(ref)">
             <div class="form-floating m-3">
-              <input type="text" class="form-control text-white" id="un" placeholder="un" name="username">
+              <input type="text" class="form-control text-white" id="un" placeholder="un" name="username" ngModel>
               <label for="un" class="form-label text-white">Username</label>
             </div>
             <div class="form-floating m-3">
-              <input type="password" class="form-control text-white" id="pwd" placeholder="pwd" name="password">
+              <input type="password" class="form-control text-white" id="pwd" placeholder="pwd" name="password" ngModel>
               <label for="pwd" class="form-label text-white">Password</label>
             </div>
             
-            <button class="btn btn-success d-block mx-auto m-4">Login</button>
+            <button type="submit" class="btn btn-success d-block mx-auto m-4">Login</button>
         </form>
     </div>
     <div class="col-sm-2 col-sm-3"></div>

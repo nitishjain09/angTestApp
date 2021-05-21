@@ -1,206 +1,216 @@
 {
-    "mobiles": [
-        {
-            "id": "1",
-            "productTitle": "Samsung",
-            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-            "productImage": "https://www.sathya.in/Media/Default/Thumbs/0038/0038136-vivo-s1-pro-black8gb-ram-128gb-storage-250.jpg"
-          },
-          {
-            "id": "2",
-            "productTitle": "Samsung",
-            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-            "productImage": "https://priceintanzania.com/wp-content/uploads/2019/04/Samsung-Galaxy-A70-Price-in-Tanzania.jpg"
-          },
-          {
-            "id": "3",
-            "productTitle": "Honor",
-            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-            "productImage": "https://5.imimg.com/data5/AW/IX/GLADMIN-53160395/galaxy-s-500x500.png"
-          },
-          {
-            "id": "4",
-            "productTitle": "Iphone-11",
-            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-            "productImage": "https://img.tatacliq.com/images/i7/1348Wx2000H/MP000000005562292_1348Wx2000H_202011300234051.jpeg"
-          },
-          {
-            "id": "5",
-            "productTitle": "OnePlus",
-            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-            "productImage": "https://670354.smushcdn.com/2260778/wp-content/uploads/2021/03/AMZ101-2.jpg"
-          },
-          {
-            "id": "6",
-            "productTitle": "Google pixel",
-            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-            "productImage": "https://www.91-img.com/pictures/105546-v1-google-pixel-xl-mobile-phone-large-1.jpg"
-          }
-    ],
-
-    "bikes": [],
-    "televisions": [],
-    
-    "users": [
-      {
-        "id": 1,
-        "name": "Leanne Graham",
-        "username": "Bret",
-        "email": "Sincere@april.biz",
-        "profile": "https://i.pinimg.com/564x/ce/d8/4a/ced84a67302c60bd1abaaf9314064433.jpg",
-        "address": {
-          "street": "Kulas Light",
-          "suite": "Apt. 556",
-          "city": "Gwenborough",
-          "zipcode": "92998-3874"
-        },
-        "phone": "1-770-736-8031 x56442",
-        "website": "hildegard.org",
-        "company": "Romaguera-Crona"
+  "mobiles": [
+    {
+      "id": "1",
+      "productTitle": "Samsung",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://www.sathya.in/Media/Default/Thumbs/0038/0038136-vivo-s1-pro-black8gb-ram-128gb-storage-250.jpg"
+    },
+    {
+      "id": "2",
+      "productTitle": "Samsung",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://priceintanzania.com/wp-content/uploads/2019/04/Samsung-Galaxy-A70-Price-in-Tanzania.jpg"
+    },
+    {
+      "id": "3",
+      "productTitle": "Honor",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://5.imimg.com/data5/AW/IX/GLADMIN-53160395/galaxy-s-500x500.png"
+    },
+    {
+      "id": "4",
+      "productTitle": "Iphone-11",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://img.tatacliq.com/images/i7/1348Wx2000H/MP000000005562292_1348Wx2000H_202011300234051.jpeg"
+    },
+    {
+      "id": "5",
+      "productTitle": "OnePlus",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://670354.smushcdn.com/2260778/wp-content/uploads/2021/03/AMZ101-2.jpg"
+    },
+    {
+      "id": "6",
+      "productTitle": "Google pixel",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://www.91-img.com/pictures/105546-v1-google-pixel-xl-mobile-phone-large-1.jpg"
+    },
+    {
+      "productTitle": "Oppo F17",
+      "productImage": "https://assets.mspimages.in/c/tr:w-370,h-330,c-at_max/16688-82-1.jpg",
+      "description": "Display, Corning Gorilla GlassThe Oppo F17 Pro gets a 6.43-inch Full HD+ display with a resolution of 1080x2400 pixels.",
+      "id": "62-blSD"
+    },
+    {
+      "productTitle": "Nokia",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH9GITnNrhjotwIRi-Rni7zzlIXkzUeqbm0bOMUlhctzhl2rbL7J3mwJ7PbId9XBpABBY&usqp=CAU",
+      "description": "10 Nokia Phones that Shaped the Mobile Revolution",
+      "id": "S8ty9dM"
+    }
+  ],
+  "bikes": [],
+  "televisions": [],
+  "users": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "profile": "https://i.pinimg.com/564x/ce/d8/4a/ced84a67302c60bd1abaaf9314064433.jpg",
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874"
       },
-      {
-        "id": 2,
-        "name": "Ervin Howell",
-        "username": "Antonette",
-        "email": "Shanna@melissa.tv",
-        "profile": "https://pixomatic.us/blog/wp-content/uploads/2019/11/pixomatic_1572877223091.png",
-        "address": {
-          "street": "Victor Plains",
-          "suite": "Suite 879",
-          "city": "Wisokyburgh",
-          "zipcode": "90566-7771"
-        },
-        "phone": "010-692-6593 x09125",
-        "website": "anastasia.net",
-        "company":  "Deckow-Crist"
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": "Romaguera-Crona"
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "username": "Antonette",
+      "email": "Shanna@melissa.tv",
+      "profile": "https://pixomatic.us/blog/wp-content/uploads/2019/11/pixomatic_1572877223091.png",
+      "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771"
       },
-      {
-        "id": 3,
-        "name": "Clementine Bauch",
-        "username": "Samantha",
-        "email": "Nathan@yesenia.net",
-        "profile": "https://s3-ap-southeast-1.amazonaws.com/blog-sg/wp-content/uploads/2016/09/29153539/asian-woman-smiling-professional.jpg",
-        "address": {
-          "street": "Douglas Extension",
-          "suite": "Suite 847",
-          "city": "McKenziehaven",
-          "zipcode": "59590-4157"
-        },
-        "phone": "1-463-123-4447",
-        "website": "ramiro.info",
-        "company": "Romaguera-Jacobson"
+      "phone": "010-692-6593 x09125",
+      "website": "anastasia.net",
+      "company": "Deckow-Crist"
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "username": "Samantha",
+      "email": "Nathan@yesenia.net",
+      "profile": "https://s3-ap-southeast-1.amazonaws.com/blog-sg/wp-content/uploads/2016/09/29153539/asian-woman-smiling-professional.jpg",
+      "address": {
+        "street": "Douglas Extension",
+        "suite": "Suite 847",
+        "city": "McKenziehaven",
+        "zipcode": "59590-4157"
       },
-      {
-        "id": 4,
-        "name": "Patricia Lebsack",
-        "username": "Karianne",
-        "email": "Julianne.OConner@kory.org",
-        "profile": "https://i.pinimg.com/originals/33/c6/f8/33c6f839d355360e5021b2291de409f6.png",
-        "address": {
-          "street": "Hoeger Mall",
-          "suite": "Apt. 692",
-          "city": "South Elvis",
-          "zipcode": "53919-4257"
-        },
-        "phone": "493-170-9623 x156",
-        "website": "kale.biz",
-        "company": "Robel-Corkery"
+      "phone": "1-463-123-4447",
+      "website": "ramiro.info",
+      "company": "Romaguera-Jacobson"
+    },
+    {
+      "id": 4,
+      "name": "Patricia Lebsack",
+      "username": "Karianne",
+      "email": "Julianne.OConner@kory.org",
+      "profile": "https://i.pinimg.com/originals/33/c6/f8/33c6f839d355360e5021b2291de409f6.png",
+      "address": {
+        "street": "Hoeger Mall",
+        "suite": "Apt. 692",
+        "city": "South Elvis",
+        "zipcode": "53919-4257"
       },
-      {
-        "id": 5,
-        "name": "Chelsey Dietrich",
-        "username": "Kamren",
-        "email": "Lucio_Hettinger@annie.ca",
-        "profile": "https://i.pinimg.com/736x/a7/66/92/a766923c29305a16ce461b2ae54f4c68.jpg",
-        "address": {
-          "street": "Skiles Walks",
-          "suite": "Suite 351",
-          "city": "Roscoeview",
-          "zipcode": "33263"
-        },
-        "phone": "(254)954-1289",
-        "website": "demarco.info",
-        "company": "Keebler LLC"
+      "phone": "493-170-9623 x156",
+      "website": "kale.biz",
+      "company": "Robel-Corkery"
+    },
+    {
+      "id": 5,
+      "name": "Chelsey Dietrich",
+      "username": "Kamren",
+      "email": "Lucio_Hettinger@annie.ca",
+      "profile": "https://i.pinimg.com/736x/a7/66/92/a766923c29305a16ce461b2ae54f4c68.jpg",
+      "address": {
+        "street": "Skiles Walks",
+        "suite": "Suite 351",
+        "city": "Roscoeview",
+        "zipcode": "33263"
       },
-      {
-        "id": 6,
-        "name": "Mrs. Dennis Schulist",
-        "username": "Leopoldo_Corkery",
-        "email": "Karley_Dach@jasper.info",
-        "profile": "https://i.pinimg.com/236x/d8/82/59/d88259a42fcc6ee481c879e05b5ff465--business-headshot-ideas-woman-profile-picture-professional.jpg",
-        "address": {
-          "street": "Norberto Crossing",
-          "suite": "Apt. 950",
-          "city": "South Christy",
-          "zipcode": "23505-1337"
-        },
-        "phone": "1-477-935-8478 x6430",
-        "website": "ola.org",
-        "company": "Considine-Lockman"
+      "phone": "(254)954-1289",
+      "website": "demarco.info",
+      "company": "Keebler LLC"
+    },
+    {
+      "id": 6,
+      "name": "Mrs. Dennis Schulist",
+      "username": "Leopoldo_Corkery",
+      "email": "Karley_Dach@jasper.info",
+      "profile": "https://i.pinimg.com/236x/d8/82/59/d88259a42fcc6ee481c879e05b5ff465--business-headshot-ideas-woman-profile-picture-professional.jpg",
+      "address": {
+        "street": "Norberto Crossing",
+        "suite": "Apt. 950",
+        "city": "South Christy",
+        "zipcode": "23505-1337"
       },
-      {
-        "id": 7,
-        "name": "Kurtis Weissnat",
-        "username": "Elwyn.Skiles",
-        "email": "Telly.Hoeger@billy.biz",
-        "profile": "https://i.pinimg.com/originals/fc/b3/34/fcb334c7c8c0b297140305658a3184a3.jpg",
-        "address": {
-          "street": "Rex Trail",
-          "suite": "Suite 280",
-          "city": "Howemouth",
-          "zipcode": "58804-1099"
-        },
-        "phone": "210.067.6132",
-        "website": "elvis.io",
-        "company": "Johns Group"
+      "phone": "1-477-935-8478 x6430",
+      "website": "ola.org",
+      "company": "Considine-Lockman"
+    },
+    {
+      "id": 7,
+      "name": "Kurtis Weissnat",
+      "username": "Elwyn.Skiles",
+      "email": "Telly.Hoeger@billy.biz",
+      "profile": "https://i.pinimg.com/originals/fc/b3/34/fcb334c7c8c0b297140305658a3184a3.jpg",
+      "address": {
+        "street": "Rex Trail",
+        "suite": "Suite 280",
+        "city": "Howemouth",
+        "zipcode": "58804-1099"
       },
-      {
-        "id": 8,
-        "name": "Nicholas Runolfsdottir V",
-        "username": "Maxime_Nienow",
-        "email": "Sherwood@rosamond.me",
-        "profile": "https://i.pinimg.com/originals/eb/5a/57/eb5a576615b32ce3d634d5dd0c5f1d9d.jpg",
-        "address": {
-          "street": "Ellsworth Summit",
-          "suite": "Suite 729",
-          "city": "Aliyaview",
-          "zipcode": "45169"
-        },
-        "phone": "586.493.6943 x140",
-        "website": "jacynthe.com",
-        "company": "Abernathy Group"
+      "phone": "210.067.6132",
+      "website": "elvis.io",
+      "company": "Johns Group"
+    },
+    {
+      "id": 8,
+      "name": "Nicholas Runolfsdottir V",
+      "username": "Maxime_Nienow",
+      "email": "Sherwood@rosamond.me",
+      "profile": "https://i.pinimg.com/originals/eb/5a/57/eb5a576615b32ce3d634d5dd0c5f1d9d.jpg",
+      "address": {
+        "street": "Ellsworth Summit",
+        "suite": "Suite 729",
+        "city": "Aliyaview",
+        "zipcode": "45169"
       },
-      {
-        "id": 9,
-        "name": "Glenna Reichert",
-        "username": "Delphine",
-        "email": "Chaim_McDermott@dana.io",
-        "profile": "https://i.pinimg.com/originals/3a/b1/ce/3ab1ce88c1d2bae5758ce1924c01cb20.jpg",
-        "address": {
-          "street": "Dayna Park",
-          "suite": "Suite 449",
-          "city": "Bartholomebury",
-          "zipcode": "76495-3109"
-        },
-        "phone": "(775)976-6794 x41206",
-        "website": "conrad.com",
-        "company": "Yost and Sons"
+      "phone": "586.493.6943 x140",
+      "website": "jacynthe.com",
+      "company": "Abernathy Group"
+    },
+    {
+      "id": 9,
+      "name": "Glenna Reichert",
+      "username": "Delphine",
+      "email": "Chaim_McDermott@dana.io",
+      "profile": "https://i.pinimg.com/originals/3a/b1/ce/3ab1ce88c1d2bae5758ce1924c01cb20.jpg",
+      "address": {
+        "street": "Dayna Park",
+        "suite": "Suite 449",
+        "city": "Bartholomebury",
+        "zipcode": "76495-3109"
       },
-      {
-        "id": 10,
-        "name": "Clementina DuBuque",
-        "username": "Moriah.Stanton",
-        "email": "Rey.Padberg@karina.biz",
-        "profile": "https://specials-images.forbesimg.com/imageserve/5ec4bc8cd83df8000608cf53/960x0.jpg?fit=scale",
-        "address": {
-          "street": "Kattie Turnpike",
-          "suite": "Suite 198",
-          "city": "Lebsackbury",
-          "zipcode": "31428-2261"
-        },
-        "phone": "024-648-3804",
-        "website": "ambrose.net",
-        "company": "Hoeger LLC"
-      }
-    ]
+      "phone": "(775)976-6794 x41206",
+      "website": "conrad.com",
+      "company": "Yost and Sons"
+    },
+    {
+      "id": 10,
+      "name": "Clementina DuBuque",
+      "username": "Moriah.Stanton",
+      "email": "Rey.Padberg@karina.biz",
+      "profile": "https://specials-images.forbesimg.com/imageserve/5ec4bc8cd83df8000608cf53/960x0.jpg?fit=scale",
+      "address": {
+        "street": "Kattie Turnpike",
+        "suite": "Suite 198",
+        "city": "Lebsackbury",
+        "zipcode": "31428-2261"
+      },
+      "phone": "024-648-3804",
+      "website": "ambrose.net",
+      "company": "Hoeger LLC"
+    }
+  ]
 }

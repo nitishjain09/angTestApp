@@ -1,0 +1,11 @@
+.active{
+    font-weight: bold;
+}
+
+li a{
+    color:white;
+}   
+
+.nav-link.active{
+    color: #0a3255;
+}

@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Mobile } from '../models/mobile.model';
 import { Product } from '../models/product.model'
 
 @Component({
@@ -9,7 +10,7 @@ import { Product } from '../models/product.model'
 export class ProductDetailsComponent{
   
   //to recieve data from parent as input
-  @Input() productObj:Product; //input inducates to take info from parent comp
+  @Input() productObj:Mobile; //input inducates to take info from parent comp
 
   //create a custom event
   @Output() myEvent=new EventEmitter();

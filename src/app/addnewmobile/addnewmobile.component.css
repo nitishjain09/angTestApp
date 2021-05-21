@@ -1,0 +1,12 @@
+.form-control{
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+    color: white;
+    border-radius: 0px;
+}
+
+label{
+    color: white;
+}
