@@ -1,52 +1,46 @@
 {
   "mobiles": [
     {
-      "id": "1",
       "productTitle": "Samsung",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "id": 1,
       "productImage": "https://www.sathya.in/Media/Default/Thumbs/0038/0038136-vivo-s1-pro-black8gb-ram-128gb-storage-250.jpg"
     },
     {
-      "id": "2",
       "productTitle": "Samsung",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "id": 2,
       "productImage": "https://priceintanzania.com/wp-content/uploads/2019/04/Samsung-Galaxy-A70-Price-in-Tanzania.jpg"
     },
     {
-      "id": "3",
-      "productTitle": "Honor",
+      "productTitle": "Honor V10",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "id": 3,
       "productImage": "https://5.imimg.com/data5/AW/IX/GLADMIN-53160395/galaxy-s-500x500.png"
     },
     {
-      "id": "4",
+      "id": 4,
       "productTitle": "Iphone-11",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
       "productImage": "https://img.tatacliq.com/images/i7/1348Wx2000H/MP000000005562292_1348Wx2000H_202011300234051.jpeg"
     },
     {
-      "id": "5",
+      "id": 5,
       "productTitle": "OnePlus",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
       "productImage": "https://670354.smushcdn.com/2260778/wp-content/uploads/2021/03/AMZ101-2.jpg"
     },
     {
-      "id": "6",
       "productTitle": "Google pixel",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "id": 6,
       "productImage": "https://www.91-img.com/pictures/105546-v1-google-pixel-xl-mobile-phone-large-1.jpg"
     },
     {
       "productTitle": "Oppo F17",
       "productImage": "https://assets.mspimages.in/c/tr:w-370,h-330,c-at_max/16688-82-1.jpg",
       "description": "Display, Corning Gorilla GlassThe Oppo F17 Pro gets a 6.43-inch Full HD+ display with a resolution of 1080x2400 pixels.",
-      "id": "62-blSD"
-    },
-    {
-      "productTitle": "Nokia",
-      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH9GITnNrhjotwIRi-Rni7zzlIXkzUeqbm0bOMUlhctzhl2rbL7J3mwJ7PbId9XBpABBY&usqp=CAU",
-      "description": "10 Nokia Phones that Shaped the Mobile Revolution",
-      "id": "S8ty9dM"
+      "id": 7
     }
   ],
   "bikes": [],

@@ -1,17 +1,48 @@
-<table class="table text-center text-white">
-    <thead>
-        <th>Brand</th>
-        <th>Description</th>
-        <th>Image</th>
-    </thead>
+<form #ref="ngForm" (ngSubmit)="saveMobile(ref.value)">
+    <table class="table table-secondary table-striped table-borderless text-center text-dark">
+        <thead class="text-white">
+            <th>Brand</th>
+            <th>Description</th>
+            <th>Image</th>
+        </thead>
 
-    <tbody>
-        <tr *ngFor='let mobile of mobiles'>
-            <td>{{mobile.productTitle}}</td>
-            <td>{{mobile.description}}</td>
-            <td>
-                <img src={{mobile.productImage}} alt="" width="100px">
-            </td>
-        </tr>
-    </tbody>
-</table>
+        <tbody>
+            <tr *ngFor='let mobile of mobiles; let idx=index'>
+                
+                <!-- Product title -->
+                <td>
+                    <span *ngIf="!editMobileStatus || editMobileIndex!==idx">
+                        {{mobile.productTitle}}
+                    </span>
+                    <span *ngIf="editMobileStatus && editMobileIndex==idx">
+                        <input type="text" name="productTitle" id="" [(ngModel)]="editMobileObj.productTitle">
+                    </span>
+                </td>
+
+                <!-- product description -->
+                <td>
+                    <span *ngIf="!editMobileStatus || editMobileIndex!==idx">
+                        {{mobile.description}}
+                    </span>
+                    <span *ngIf="editMobileStatus && editMobileIndex==idx">
+                        <input type="text" name="description" id="" [(ngModel)]="editMobileObj.description">
+                    </span></td>
+                <td>
+                    <img src={{mobile.productImage}} alt="" width="100px">
+                </td>
+
+                <!-- edit and delete -->
+                <td>
+                    <span *ngIf="!editMobileStatus || editMobileIndex!==idx">
+                        <button class="btn btn-sm btn-primary p-1 m-1" (click)="editMobile(mobile,idx)"><i class="fas fa-edit text-white"></i></button>
+                        <button class="btn btn-sm btn-danger p-1 m-1" (click)="deleteMobile(mobile)"><i class="fas fa-trash-alt text-white"></i></button>
+                    </span>
+
+                    <span *ngIf="editMobileStatus && editMobileIndex==idx">
+                        <button class="btn btn-sm btn-success p-1" type="submit"><i class="fas fa-save text-light"></i></button>
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>

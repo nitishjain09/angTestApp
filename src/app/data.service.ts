@@ -27,4 +27,14 @@ export class DataService {
         return this.hc.post('http://localhost:3000/mobiles',mobileObj);
       }
 
+      //update Mobile
+      updateMobile(modifiedMobileObj):Observable<any>{
+        return this.hc.put("http://localhost:3000/mobiles/"+modifiedMobileObj.id, modifiedMobileObj);
+      }
+
+      //delete mobile
+      deleteMobile(id):Observable<any>{
+        return this.hc.delete("http://localhost:3000/mobiles/"+id);
+      }
+
 }

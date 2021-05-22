@@ -4,8 +4,10 @@ import { AdminComponent } from './admin.component';
 import { ViewproductsComponent } from './viewproducts/viewproducts.component';
 
 const routes: Routes = [{ path: '', component: AdminComponent ,children:[
-  { path: 'viewproducts', component:ViewproductsComponent}
-]}];
+  { path: 'viewproducts', component:ViewproductsComponent},
+  { path: '', redirectTo:'/admin/viewproducts', pathMatch: 'full'}
+]}
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
