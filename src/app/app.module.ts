@@ -21,6 +21,7 @@ import { UserdetailsComponent } from './userdetails/userdetails.component';
 import { UsersComponent } from './users/users.component';
 import { AddnewmobileComponent } from './addnewmobile/addnewmobile.component';
 import { ViewmobilesComponent } from './viewmobiles/viewmobiles.component';
+import { SearchPipe } from './search.pipe';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ViewmobilesComponent } from './viewmobiles/viewmobiles.component';
     UserdetailsComponent,
     UsersComponent,
     AddnewmobileComponent,
-    ViewmobilesComponent
+    ViewmobilesComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule,

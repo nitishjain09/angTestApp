@@ -46,9 +46,15 @@
         <li class="nav-item">
           <a class="nav-link" routerLink="register" routerLinkActive="active">Register</a>
         </li>
-        <li class="nav-item">
+
+        <li class="nav-item" *ngIf='!dsObj.userLoginStatus()'>
           <a class="nav-link" routerLink="login" routerLinkActive="active">Login</a>
         </li>
+
+        <li class="nav-item" *ngIf='dsObj.userLoginStatus()'>
+          <a class="nav-link" routerLink="login" routerLinkActive="active" (click)='dsObj.onLogout()'>Logout</a>
+        </li>
+
         <li class="nav-item">
           <a class="nav-link" routerLink="contactus" routerLinkActive="active">Contact Us</a>
         </li>

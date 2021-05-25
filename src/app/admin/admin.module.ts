@@ -5,12 +5,13 @@ import { FormsModule } from '@angular/forms';
 import { AdminRoutingModule } from './admin-routing.module';
 import { AdminComponent } from './admin.component';
 import { ViewproductsComponent } from './viewproducts/viewproducts.component';
-
+//import { SearchPipe } from '../search.pipe';
 
 @NgModule({
   declarations: [
     AdminComponent,
-    ViewproductsComponent
+    ViewproductsComponent,
+    //SearchPipe
   ],
   imports: [
     CommonModule,

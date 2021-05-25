@@ -1,3 +1,6 @@
+<input type="text" name="productTitle" placeholder="Search by brand" id="" class="form-control m-2" [(ngModel)]="searchTerm1">
+
+<div class="table-content">
 <form #ref="ngForm" (ngSubmit)="saveMobile(ref.value)">
     <table class="table table-secondary table-striped table-borderless text-center text-dark">
         <thead class="text-white">
@@ -12,7 +15,7 @@
                 <!-- Product title -->
                 <td>
                     <span *ngIf="!editMobileStatus || editMobileIndex!==idx">
-                        {{mobile.productTitle}}
+                        {{mobile.productTitle | uppercase}}
                     </span>
                     <span *ngIf="editMobileStatus && editMobileIndex==idx">
                         <input type="text" name="productTitle" id="" [(ngModel)]="editMobileObj.productTitle">
@@ -34,8 +37,8 @@
                 <!-- edit and delete -->
                 <td>
                     <span *ngIf="!editMobileStatus || editMobileIndex!==idx">
-                        <button class="btn btn-sm btn-primary p-1 m-1" (click)="editMobile(mobile,idx)"><i class="fas fa-edit text-white"></i></button>
-                        <button class="btn btn-sm btn-danger p-1 m-1" (click)="deleteMobile(mobile)"><i class="fas fa-trash-alt text-white"></i></button>
+                        <button type="button" class="btn btn-sm btn-primary p-1 m-1" (click)="editMobile(mobile,idx)"><i class="fas fa-edit text-white"></i></button>
+                        <button type="button" class="btn btn-sm btn-danger p-1 m-1" (click)="deleteMobile(mobile)"><i class="fas fa-trash-alt text-white"></i></button>
                     </span>
 
                     <span *ngIf="editMobileStatus && editMobileIndex==idx">
@@ -46,3 +49,4 @@
         </tbody>
     </table>
 </form>
+</div>

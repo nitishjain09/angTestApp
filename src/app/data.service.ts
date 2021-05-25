@@ -37,4 +37,18 @@ export class DataService {
         return this.hc.delete("http://localhost:3000/mobiles/"+id);
       }
 
+      //to check Login status
+      userLoginStatus():boolean{
+        if(localStorage.getItem('username')==null)
+          return false;
+        else{
+          return true;
+        }
+      }
+
+      //logout
+      onLogout(){
+        localStorage.clear();
+      }
+
 }

@@ -17,10 +17,15 @@ export class LoginComponent implements OnInit {
     let userLoginObj=ref.value;
 
     //if username and password are admin, only then navigate to adminComponent
-    if(userLoginObj.username != 'admin' || userLoginObj.password != 'admin'){
-      alert("Invalid username/password");
+    if(userLoginObj.username != 'admin'){
+      alert("Invalid username");
+    }
+    else if(userLoginObj.password != 'admin'){
+      alert("Invalid password");
     }
     else{
+      //save username in local storage
+      localStorage.setItem("username",'admin');
       //navigate to admin component
       this.routerObj.navigateByUrl("/admin");
     }

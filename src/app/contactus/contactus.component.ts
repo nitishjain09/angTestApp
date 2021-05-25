@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactusComponent implements OnInit {
 
+  n:number=50;
+  r:number=0.5;
+  
+  today= new Date();
   constructor() { }
 
   ngOnInit(): void {
